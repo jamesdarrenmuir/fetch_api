@@ -29,7 +29,7 @@ class Head(object):
     MIN_PAN = -math.pi / 2
     MAX_PAN = math.pi / 2
     MIN_TILT = -math.pi / 2
-    MAX_TILT = math.pi / 4
+    MAX_TILT = math.pi / 2
 
     def __init__(self):
         self.traj_client = actionlib.SimpleActionClient(
